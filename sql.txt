@@ -1,12 +1,12 @@
 CREATE TABLE article(
-2 id int(11) NOT NULL AUTO_INCREMENT,
-3 title varchar(255) NOT NULL,
-4 text text NOT NULL,
-5 full text text NOT NULL,
-6 image VARCHAR(255) DEFAULT NULL,
-7 views int(11) NOT NULL DEFAULT 0,
-8 author varchar(100) NOT NULL,
-9 created at datetime NOT NULL,
-10 updated_at datetime DEFAULT NULL,
-11 PRIMARY KEY(id))
-12 ENGINE-INNODB DEFAULT CHARSET=utf8;
+ id int(11) NOT NULL AUTO_INCREMENT,
+ title varchar(255) NOT NULL,
+ text text NOT NULL,
+ full text text NOT NULL,
+ image VARCHAR(255) DEFAULT NULL,
+ views int(11) NOT NULL DEFAULT 0,
+ author varchar(100) NOT NULL,
+ created at datetime NOT NULL,
+ updated_at datetime DEFAULT NULL,
+ PRIMARY KEY(id))
+ ENGINE-INNODB DEFAULT CHARSET=utf8;
